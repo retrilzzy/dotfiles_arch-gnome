@@ -2,7 +2,7 @@
 
 __Напримере TLauncher'а__
 
-![tlauncher launcher](image.png)
+![tlauncher launcher](tlauncher-launcher.png)
 
 > [tlauncher.desctop](tlauncher.desctop)
 ```
