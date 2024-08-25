@@ -4,10 +4,9 @@ __Напримере TLauncher'а__
 
 ![tlauncher launcher](tlauncher-launcher.png)
 
-> /home/retrilz/.local/share/applications/[tlauncher.desctop](tlauncher.desctop)
+> /home/retrilz/.local/share/applications/[tlauncher.desktop](tlauncher.desktop)
 ```
 [Desktop Entry]
-Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
