@@ -28,9 +28,18 @@ plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
 **Мои настройки для блюра приложений:**
 ![настройки расширения](./ext_settings.png)
 
-## И чуть чуть моей импровизации
 
-[exa](https://the.exa.website/) вместо ls
+## Прекрасное приложение [The F*ck](https://github.com/nvbn/thefuck)
+
+![thef*ck](./thefck.png)
+
+[.zshrc](.zshrc)
+```
+eval "$(thefuck --alias bruh)"
+```
+
+
+## [exa](https://the.exa.website/) вместо ls
 
 [.zshrc](.zshrc)
 ```

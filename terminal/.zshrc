@@ -51,6 +51,8 @@ export ARCHFLAGS="-arch x86_64"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Aliases
+eval $(thefuck --alias bruh)
+
 if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
     alias la="exa --long --all --group"
