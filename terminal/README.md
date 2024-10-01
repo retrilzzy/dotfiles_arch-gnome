@@ -32,7 +32,7 @@ plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
 
 [exa](https://the.exa.website/) вместо ls
 
-[.zshrc](.zshrc) | Строка 113-116
+[.zshrc](.zshrc)
 ```
 if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
