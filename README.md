@@ -1,4 +1,4 @@
 # arch-laptop
 Здесь будут собраны разные более менее полезные конфиги, скрипты и т.п. которые я использовал для кастомизации ноутбука (arch + gnome)
 
-![neofetch](neofetch.png)
+![fastfetch](./fastfetch/fastfetch.png)
