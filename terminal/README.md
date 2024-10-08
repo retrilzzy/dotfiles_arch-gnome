@@ -1,9 +1,14 @@
 ## Настройка терминала
 
-**[ZSH](https://www.zsh.org/) + [Oh My ZSH](https://ohmyz.sh/)**
+**[Kitty](https://sw.kovidgoyal.net/kitty/)
+|
+[ZSH](https://www.zsh.org/)
+|
+[Oh My ZSH](https://ohmyz.sh/)**
 
 ![terminal](./terminal.png)
 
+### Конфиг терминала [Kitty ↗](../kitty)
 
 ## Тема [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
@@ -13,21 +18,13 @@
 
 **Плагины:**
 ```
-plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions dirhistory)
 ```
 
-Сурсы плагинов: <br>
+GitHub репозитории плагинов: <br>
 [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
- | 
+|
 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-
-## Блюр
-
-Для блюра используется расширение [Blur my Shell](https://github.com/aunetx/blur-my-shell)
-
-**Мои настройки для блюра приложений:**
-![настройки расширения](./ext_settings.png)
-
 
 ## Прекрасное приложение [The F*ck](https://github.com/nvbn/thefuck)
 
@@ -48,3 +45,10 @@ if [ -x "$(command -v exa)" ]; then
     alias la="exa --long --all --group"
 fi7
 ```
+
+## Вид окна
+**Для прозрачности терминала можно использовать:**
+- Расширения gnome - [BlurMyShell](https://github.com/aunetx/blur-my-shell)
+- В конфиге kitty указать прозрачность окна - [Kitty Docs](https://sw.kovidgoyal.net/kitty/conf/#opt-kitty.background_opacity)
+
+**Для блюра окна можно использовать тот же [BlurMyShell](https://github.com/aunetx/blur-my-shell)**
