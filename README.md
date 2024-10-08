@@ -1,4 +1,9 @@
-# arch-laptop
-Здесь будут собраны разные более менее полезные конфиги, скрипты и т.п. которые я использовал для кастомизации ноутбука (arch + gnome)
+# Dot files
+Здесь будут собраны разные конфиги, скрипты и т.п. (arch + gnome)
 
-![fastfetch](./fastfetch/fastfetch.png)
+![screenshot](./screen.png)
+
+### Навигация
+- **Настройка терминала [↗](./terminal)**
+- **Конфиг fastfetch [↗](./fastfetch)**
+- **Кастомный лаунчер приложений [↗](./custom-application-launcher)**
