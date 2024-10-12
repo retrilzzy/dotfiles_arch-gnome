@@ -50,6 +50,14 @@ export ARCHFLAGS="-arch x86_64"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Free JetBrains Pro (https://3.jetbra.in)
+PS1='[\u@\h \W]\$ '
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
+
+# Keybind
+bindkey "^[[1;3C" forward-word # ALT + ArrowRight
+bindkey "^[[1;3D" backward-word # ALT + ArrowLeft
+
 # Aliases
 eval $(thefuck --alias bruh)
 
@@ -57,3 +65,11 @@ if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
     alias la="exa --long --all --group"
 fi
+
+alias clck="tty-clock -c -s -b"
+
+alias icat="kitten icat"
+alias s="kitten ssh"
+alias d="kitten diff"
+
+alias pch="/opt/pycharm-2024.2.3/bin/pycharm"
