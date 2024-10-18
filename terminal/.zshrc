@@ -55,8 +55,8 @@ PS1='[\u@\h \W]\$ '
 ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
 
 # Keybind
-bindkey "^[[1;3C" forward-word # ALT + ArrowRight
-bindkey "^[[1;3D" backward-word # ALT + ArrowLeft
+# bindkey "^[[1;3C" forward-word # ALT + ArrowRight
+# bindkey "^[[1;3D" backward-word # ALT + ArrowLeft
 
 # Aliases
 eval $(thefuck --alias bruh)
