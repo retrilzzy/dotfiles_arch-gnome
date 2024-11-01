@@ -1,9 +1,9 @@
 # Dotfiles
 
 >[!Warning]
-> Я переехал с **GNOME** на **Hyprland**.
+> Я переехал с **GNOME** на **Hyprland**
 >
-> Поэтому новые dotfiles будут в новом репозитории чуть позже...
+> https://github.com/retrilzzy/dotfiles
 
 Здесь будут собраны разные конфиги, скрипты и т.п. (arch + gnome)
 
